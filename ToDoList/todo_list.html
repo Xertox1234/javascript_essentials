@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ToDo List</title>
+    <title>ToDo List</title>
 </head>
 <body>
-<h1>ToDo List</h1>
-<input type="text" id="taskInput" placeholder="Add a new task">
-<button id="addTaskBtn">Add Task</button>
-
-<!-- <input type="text" id="searchInput" placeholder="Search..."> -->
-<ul id="taskList">
-    <!-- Tasks will be displayed here -->
-</ul>
-
-<button id="clearCompletedBtn">Clear Completed</button>
-<script src="./todo_list.js"></script>
+    <h1>ToDo List</h1>
+    
+    <!-- Input to add a new task -->
+    <input type="text" id="taskInput" placeholder="Add a new task">
+    <button id="addTaskBtn">Add Task</button>
+    
+    <!-- Uncommented search input if needed in future
+    <input type="text" id="searchInput" placeholder="Search..."> 
+    -->
+    
+    <!-- List to display tasks -->
+    <ul id="taskList">
+        <!-- Tasks will be displayed here -->
+    </ul>
+    
+    <!-- Button to clear completed tasks -->
+    <button id="clearCompletedBtn">Clear Completed</button>
+    
+    <!-- **New** Button to clear all tasks -->
+    <button id="clearAllBtn">Clear All Tasks</button>
+    
+    <!-- Link to the JavaScript file -->
+    <script src="./todo_list.js"></script>
 </body>
 </html>
